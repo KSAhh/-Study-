@@ -1,18 +1,18 @@
 # LikeLion 8th Coding Session
 Cheet Sheet
-LikeLion 8th represented staff
-김도호
+LikeLion
+김수아
 
 ## 1학기 커리큘럼
 
 ### Github&배포
 
-Github&배포_1 **[[요약](https://github.com/Do-ho/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_1.md)]**<br/>
-Github&배포_2 **[[요약](https://github.com/Do-ho/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_2.md)]**<br/>
-Github&배포_3 **[[요약](https://github.com/Do-ho/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_3.md)]**<br/>
-Github&배포_4 **[[요약](https://github.com/Do-ho/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_4.md)]**<br/>
-Github&배포_5 **[[요약](https://github.com/Do-ho/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_5.md)]**<br/>
-Github&배포_6 **[[요약](https://github.com/Do-ho/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_6.md)]**<br/>
+Github&배포_1 **[[요약](https://github.com/KSAhh/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_1.md)]**<br/>
+Github&배포_2 **[[요약](https://github.com/KSAhh/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_2.md)]**<br/>
+Github&배포_3 **[[요약](https://github.com/KSAhh/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_3.md)]**<br/>
+Github&배포_4 **[[요약](https://github.com/KSAhh/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_4.md)]**<br/>
+Github&배포_5 **[[요약](https://github.com/KSAhh/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_5.md)]**<br/>
+Github&배포_6 **[[요약](https://github.com/KSAhh/README_Template/blob/master/Github_%EB%B0%B0%ED%8F%AC/Github_%EB%B0%B0%ED%8F%AC_1_6.md)]**<br/>
 
 ### 마스크 알리미
 
