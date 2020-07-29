@@ -14,10 +14,10 @@ markdown 사용법 [https://gist.github.com/ihoneymon/652be052a0727ad59601], [ht
 연습파일 (https://github.com/KSAhh/github-practice git)
 
      git add .
-- . // 모든 것
-- add // 업로드
-- local 상에 파일을 얹어놓은 상태
+> . // 모든 것
+> add // 업로드
+> local 상에 파일을 얹어놓은 상태
 
       git commit -m
-- -m // 설명을 적겠다
-- 아직 push되지 않은 상태
+> -m // 설명을 적겠다
+> 아직 push되지 않은 상태
