@@ -50,5 +50,5 @@ Github&배포_6 **[[요약](https://github.com/KSAhh/README_Template/blob/master
 
 ### Study
 
-CodeLion ** [[바로가기]
+CodeLion **[[바로가기]
 (#https://github.com/KSAhh/README_Template/commit/a4a48b5c9a6e1a96ed0703af1905a5ee27880008)]**<br/>
