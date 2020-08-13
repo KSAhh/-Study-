@@ -50,7 +50,9 @@ Github&배포_6 **[[요약](https://github.com/KSAhh/README_Template/blob/master
 
 ### Study
 
-CodeLion **[[바로가기](https://github.com/KSAhh/README_Template/blob/master/Study/1.md)]**<br/>
-Markdown **[[바로가기](https://github.com/KSAhh/README_Template/blob/master/Study/Markdown_Manual.md)]**<br/>
+CodeLion **[[바로가기](https://github.com/KSAhh/Study/tree/master/Study)]**<br/>
+- 웹페이지 구성 **[[바로가기](https://github.com/KSAhh/Study/blob/master/Study/1%20%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%AC%EC%84%B1.md)]**
+- 텍스트 태그 **[[바로가기](https://github.com/KSAhh/Study/blob/master/Study/2%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%ED%83%9C%EA%B7%B8.md)]**
+Markdown **[[바로가기](https://github.com/KSAhh/Study/blob/master/Study/Markdown_Manual.md)]**<br/>
 
 [Prac] == pracitce file
