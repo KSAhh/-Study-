@@ -6,7 +6,10 @@
 ### markdown사용법
 [Manual](https://gist.github.com/ihoneymon/652be052a0727ad59601], [https://www.youtube.com/watch?v=MFJIOqxK6k8)  
 
-
+# Error  
+- 주석 안될때
+```Ctrl + Shift```  
+> 마이크로소프트 입력기로 변환
 
 ### 코드 입력  
 1.
