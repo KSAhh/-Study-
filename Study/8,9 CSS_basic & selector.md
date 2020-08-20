@@ -55,15 +55,17 @@
     </body>
   ```
 
-- - -
+- - -  
+- - -  
 
 #### 단순 선택자 (selector)  
 
 |Type|Class|Id|Universal|Attribute|
 |:----:|:---:|:-:|:-------:|:---------:|
-|<style="color:red">`tag {}`</span>|`.class{}` |`#id {}`|`*{color:red;}`|`tag[target="_blank"]{}`|
+|`tag {}`|`.class{}` |`#id {}`|`*{color:red;}`|`tag[target="_blank"]{}`|
 
-<span style="color:red">1. 타입 (Type)</span>  
+
+1. 타입 (Type)  
   > 해당 태그의 모든 요소에 적용  
   > `p {color: red;}`  
   > 
@@ -141,4 +143,43 @@
     </body>
   ```  
   
-  - - - 
+- - - 
+  
+#### 복합 선택자  
+- section → article → p, div  
+  > section의 자식은 article / 후손은 article, p, div  
+
+1. 자식 선택자 (Child Selector)  
+  > 선택자A의 모든 자식 中 선택자B과 일치하는 요소  
+  > `선택자A > 선택자B {color:red;}`  
+
+2. 후손 선택자 (Descendant Selector)  
+  > 선택자A의 모든 후손 中 선택자B와 일치하는 요소  
+  > `선택자A 선택자B {color:blue;}`  
+  
+- - -
+
+#### 가상 클래스 (Pseudo-class) 선택자  
+- 요소의 특별한 형태 지정할 때  
+- `선택자:pseudo-class {
+      속성: 속성 값;
+   }`  
+- ##### 사용법
+  1. 개발자탭(F12)  
+  2. a태그 요소 클릭  
+  3. Elements → ":hov" 클릭  
+  4. 상태가 나옴 / `:active`, `:hover`(마우스를 올린 상태), `:focus`, `:visited`, `:link`(방문하지 않은 링크 상태), `:visited`(방문한 상태)  
+- 
+```python
+  <head>
+      <style>
+        a:link {color: yellow;}
+        a:visited {color: cyan;}
+        a:hover {background-color: darkcyan;}
+      </style>
+  </head>
+
+  <body>
+      <a href="https://www.google.com">구글</a>
+  </body>
+```  
