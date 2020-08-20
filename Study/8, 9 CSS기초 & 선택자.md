@@ -9,7 +9,7 @@
     >> 지정할 스타일의 속성명  
     >> `속성: 값;`  
     >> 세미 콜론으로 구분  
-    >> `font-size`, `font-family`, `color`, `background-color`,  
+    >> `font-size`, `font-family`, `color`, `background-color`, `position`, `border`, `margin`, `box-sizing`,  
 
   > 값 (Value)  
     >> 속성과 쌍을 이룸  
