@@ -35,6 +35,31 @@
             /* 모서리 둥글게 방법2*/
             border-radius: 30px 20px 10px 0 / 0 10px 20px 30px;
         }
+
+
+        
+        /* padding과 margin */
+        #top {
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+            /* padding: 20px;
+            margin: 50px; */
+            box-sizing: content-box;
+            padding: 20px;
+
+        }
+
+        #bottom {
+            width: 200px;
+            height: 100px;
+            background-color: lemonchiffon;
+            /* padding: 20px;
+            margin: 20px; */
+            box-sizing: border-box;
+            padding: 20px;
+
+        }
     </style>
 </head>
 
@@ -42,6 +67,16 @@
     <div id="main">
         <div id="inner">
             이것은 내용입니다. Baby, I don't feel so good
+        </div>
+        
+
+
+        <!-- padding & margin -->
+        <div id="top">
+            top
+        </div>
+        <div id="bottom">
+            bottom
         </div>
     </div>
 </body>
