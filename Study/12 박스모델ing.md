@@ -11,9 +11,9 @@
 - ★[Box Model]
 - 요소  
   - `content`  
+  - `Padding` : 여백  
   - `Boder` : content를 감싸는 경계선. 테두리  
-  - `Padding` : 여백 / content와 border 사이  
-  - `margin` : 여백 / border 밖  
+  - `margin` : 여백  
 - 개발자 탭 → styles → box model 확인  
  
 \* 사이즈를 정해놓은 상태에서 content가 증가하면 box model을 튀어나옴  
@@ -24,16 +24,7 @@
 ### `border`  
 - 시계방향 / 위 오른쪽 아래 왼쪽  
 - property : `border-style`, `border-width`, `border-color`, `border-width`, ...  
-
-  1. `border-style`   
-  - ★ [border-style]  
-  - `border-style: dashed solid dotted double;`  
-    - `dashed` : -----  
-    - `solid` : 두꺼운 직선  
-    - `dotted` : .....  
-    - `double` :얇은 두 줄  
-  
-  - 같은 의미 다른 표현
+- 같은 의미 다른 표현
   ```python
         #inner {
             /* border 방법1 */
@@ -42,17 +33,48 @@
             border-color: red blue yellow green;
 
             /* border 방법2 */
-            border: 4px solid lemonchiffon;            # width style color
+            border: 4px solid lemonchiffon;            # width style color순
         }
   ```  
   
-  2. `border-radius`  
-  - ★ [border-radius]
-  - 경계선 둥글게  
-  - `border-radius: 12px;` : 반지름 길이  
-  - 나누기(/)로 한 방에 여러개 적용
+  1. `border-style`   
+  - ★ [border-style]  
+  - `border-style: dashed solid dotted double;` : 상 우 하 좌  
+  - `border-style: dashed solid dotted;` : 상 좌우 하  
+    - `dashed` : -----  
+    - `solid` : 두꺼운 직선  
+    - `dotted` : .....  
+    - `double` :얇은 두 줄  
   
-  .
-  .
-  .
-  .
+  2. `border-radius`  
+  - ★ [border-radius] [border-radius2]
+  - 경계선 둥글게
+  
+  - `border-radius: 12px;` : 반지름 길이  
+  - `border-top-left-radius: 30px 10px;` : 가로반지름 30px, 세로반지름 10px  
+  
+  - `border-top-right-radius` : 1시방향, `border-bottom-right-radius` : 4시 방향, `border-top-left-radius` : 11시 방향, `border-bottom-left-radius` : 8시 방향  
+  - 나누기(/)로 한 방에 여러개 적용  
+  - 
+  ```python 
+    border-radius: 30px 20px 10px 0 / 0 10px 20px 30px;
+  ```
+  
+- - -  
+  
+# Padding과 margin  
+- 요소에 배경색지정하면, padding까지 포함됨  
+- 마진 상쇄 (Margin Collapse)  
+  - 위 아래에서 태그(div 등)를 쓸때 발생하는 차이점  
+  - 두 margin이 공존(X) / 큰쪽 따라감  
+
+- box-size  
+  - `box-sizing: content-box`  
+      - 기본값  
+      - content 박스가 기준  
+      - ★ [boxsizing_content]  
+
+- `box-sizing: border-box`  
+  - border의 두께까지 포함  
+  - ★ [boxsizing_border]  
+  
