@@ -1,4 +1,11 @@
+clone : 원격 저장소 복사  
+
 commit내용  
   : 요약 한줄 작성 → 한줄 띄움 → 자세한 내용 작성  
 
-clone : 원격 저장소 복사  
+이전 commit으로 되돌리기  
+  : 코드뭉치 버리기  
+  : `checkout`  
+  
+머지  
+  : 최종 master branch로 합치는 과정  
