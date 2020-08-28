@@ -1,3 +1,21 @@
+📚 요약  
+- 🔥  
+- 일반폰트 : `serif`, `sans-serif`, `cursive`, `fantasy`, `monospace`  
+- font-style : `normal`(기본체), `italic`(이탈릭체), `oblique`(기울여짐)  
+- `font-family`, `font-weight`(굵기, 100~900, bold, normal), `font-size`(크기)  
+- `font : 스타일 굵기 크기 폰트;` : 한꺼번에 표시  
+
+- text-align : 정렬 `center`, `left`, `right`  
+- 문장 높이  
+  - `line-height : 2;` : font-size 2배  
+  - `line-height: 24px;`  
+  
+- `letter-spacing: 10px;` : 글자 사이 간격   
+- `text-indent: 15px;` : 들여쓰기  
+  
+- - -  
+- - -  
+
 ### `font-family`  
 - `font-family: 'Cute Font', Arial, cursive;`  
   - 여러 단어인 경우 따옴표  
