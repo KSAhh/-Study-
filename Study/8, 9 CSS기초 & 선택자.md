@@ -1,3 +1,27 @@
+📚 요약  
+- 🔥  
+- `.` : class  
+- `#` : id  
+- `a[target="_blank"]{}` : 특정 속성  
+- `선택자A > 선택자B {}` : 자식 中 선택자B과 일치하는 요소  
+- `선택자A 선택자B {}` : 후손 中 선택자B와 일치하는 요소
+
+- `:active`, `:focus`, `:visited`  
+- `:link` : 방문하지 않은 링크 상태  
+- `:visited` : 방문한 상태  
+- `:hover` : 마우스를 올린 상태  
+- 
+```python
+        <style>
+          a:link {color: yellow;}
+          a:visited {color: cyan;}
+          a:hover {background-color: darkcyan;}
+        </style>
+```  
+
+- - -  
+- - -  
+
 # CSS  
 - Cascading Style Sheets  
 - ★[CSS] : 선언, 선언블록  
