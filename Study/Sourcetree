@@ -11,3 +11,8 @@ commit내용
   : 최종 master branch로 합치는 과정  
 
 현재 branch / head branch
+
+reset후, 다른 내용 작성 후, pushgkrl  
+  1. 강제 push 또는 터미널에서 `git push --force`  
+  2. 병합(merge) 후 push  
+  3. brach를 만들어서 되돌림  
