@@ -1,3 +1,50 @@
+📚 요약  
+- `display:block;` : div, h1~h6, p, header, section  
+- `display:inline;` : a, span, img / `width`, `height`, `margin-top`, `margin-bottom` 사용(X)  
+- `display:none;`  
+<br>
+
+- `position: static;` : 좌표(X)  
+- `position: relative;` : 기본위치 기준으로 좌표  
+- `position: absolut;`
+  - 부모 or 조상에 relative, absolute, fixed가 선언된 곳을 기준으로 좌표  
+  - inline-block처럼 작용    
+- `position: fixed;` : 보이는 화면을 기준. 좌표  
+- `position: z-index;` : 숫자 클수록 앞으로  
+
+- flexbox : 크기가 불분명한 요소에 효율적  
+  > `flex container`
+    - `display: flex;` 추가  
+    - `flex-direction` : `row`, `row-reverse`, `column`, `column-reverse`    
+    - `flex-wrap` : `wrap`, `nowrap`  
+    - 한꺼번에 표시
+       ```python
+         flex-flow: row wrap;
+       ```
+    - `justify-content` : direction과 동일 방향 / `flex-start`, `center`, `flex-end`, `space-around`, `space-between`  
+    - `align-items` : direction 수직 방향 / `stretch`, `flex-start`, `flex-end`, `center`, `baseline`  
+    - `align-content` : directio 수직 방향 / 여러줄인 item / `stretch`, `flex-start`, `flex-end`, `center`, `space-between`, `space-around`  
+ 
+  > `flex item`  
+    - `flex-grow`  
+      - item 확장  
+      - 단위 없는 숫자(기본 0)  
+      - 0: container 커져도 item은 안 커짐 / 1: continer커지면 item도 커짐 / 여러개 : 큰 숫자가 많은 공간 차지  
+    - `flex-shrink`    
+      - 기본값 1 / 숫자 클수록 많이 축소  
+      - 0: 컨테이너 크기 작아져도 item크기 그대로  
+    - `flex-basis`  
+      - 기본 크기  
+      - `auto`:(기본값)  
+      - 단위 반드시  
+    - `flex`  
+      ```python
+        flex: 1 0 auto;           <!-- flex-grow > flex-shrink > flex-basis 순-->
+      ```
+
+- - -  
+- - -  
+
 ## `display`  
 - 보여지는 방식  
 - style에 사용  
