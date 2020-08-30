@@ -90,6 +90,14 @@
 #### `position: z-index;`  
 - 숫자 클수록 앞으로  
 
+⭐️ absolute일 때, 가운데 정렬 [참고](https://webdir.tistory.com/31)  
+-
+```python
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+```
+
 - - -  
 - - -  
 
