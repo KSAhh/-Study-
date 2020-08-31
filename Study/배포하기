@@ -32,11 +32,11 @@
         'django.middleware.WhiteNoiseMiddleware',
     ]
   ```  
-  10. "requirement.txt" 생성  
+  10. "requirements.txt" 생성  
       > manage.py와 같은 위치  
       > 서버에 올릴때, 어떤 구성으로 되어있는지 배포하고자 하는 서버에 알려주는 역할  
   11. `$ pip freeze`에서 출력되는 내용 복사
-  12. requirement.txt에 붙여넣기  
+  12. requirements.txt에 붙여넣기  
   13. "runtime.txt" 생성하고 python 버전 기입 `python 3.8.3`  
   14. setting.py - 126번째 줄  
   ```python
