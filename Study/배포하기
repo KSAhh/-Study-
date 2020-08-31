@@ -1,0 +1,60 @@
+# 배포 사이트  
+- AWS, Azure, 네이버 클라우드, Heroku  
+
+
+### Heroku  
+- 무료  
+- 사용하기  
+  1. setting.py파일 - SECRET_KEY, DEBUG, ALLOWED_HOSTS 수정
+  ```python
+    SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'qiq-6yz9w85&nnr@u8h6@tq4@!n-__5$tt9c+c7q#m2%%4)vva')
+    DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
+    ALLOWED_HOSTS = ['*']
+  ```  
+  2. "Heroku CLI" 설치 - google검색
+  3. 프로젝트 폴더 아래(manage.py파일과 같은곳) "Procfile" 파일 생성 후, 입력
+  ```python
+    web. gunicorn 프로젝트명.wsgi --log-file -
+  ```
+  4. `$ pip install gunicorn`  
+  5. `$ pip install dj-database-url`  
+  6. `$ pip install psycopg2-binary`  
+  7. setting.py  
+  ```python
+    import dj_database_url
+    db_from_env = dj_database_url.config(conn_max_age=500)
+    DATABASES['default'].update(db_from_env)
+  ```  
+  8. `$ pip install whitenoise`  
+  9. setting.py - 기존의 MIDDLEWARE에 내용 추가  
+  ```python
+    MIDDLEWARE = [
+        'django.middleware.WhiteNoiseMiddleware',
+    ]
+  ```  
+  10. "requirement.txt" 생성  
+      > manage.py와 같은 위치  
+      > 서버에 올릴때, 어떤 구성으로 되어있는지 배포하고자 하는 서버에 알려주는 역할  
+  11. `$ pip freeze`에서 출력되는 내용 복사
+  12. requirement.txt에 붙여넣기  
+  13. "runtime.txt" 생성하고 python 버전 기입 `python 3.8.3`  
+  14. setting.py - 126번째 줄  
+  ```python
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+  ```  
+  15. "static" 폴더 생성 - manage.py 파일과 같은 위치  
+  16. `$ python manage.py collectstatic` - static폴더에 css, 폰트, 이미지, js를 모아줌  
+  17. `$ heroku login`  
+  18. `$ heroku create`  
+  19. `$ git push heroku master`  
+  20. `$ heroku open`  
+  
+  오류 생겼을 경우,  
+  ```python
+    수정
+    → `$ git add .`
+    → `$ git commit -m ""`
+    → `$ git push`
+    → `$ git push heroku master`
+  ```
+  
