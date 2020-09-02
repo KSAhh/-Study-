@@ -2,6 +2,7 @@
 - `display:block;` : div, h1~h6, p, header, section  
 - `display:inline;` : a, span, img / `width`, `height`, `margin-top`, `margin-bottom` 사용(X)  
 - `display:none;`  
+
 <br>
 
 - `position: static;` : 좌표(X)  
@@ -14,9 +15,10 @@
 
 - flexbox : 크기가 불분명한 요소에 효율적  
   > `flex container`
+    - 'order' : 순서 바꾸기  
     - `display: flex;` 추가  
     - `flex-direction` : `row`, `row-reverse`, `column`, `column-reverse`    
-    - `flex-wrap` : `wrap`, `nowrap`  
+    - `flex-wrap` : `wrap`, `nowrap`, '  
     - 한꺼번에 표시
        ```python
          flex-flow: row wrap;
@@ -44,6 +46,8 @@
 
 - - -  
 - - -  
+
+[연습사이트](https://flexboxfroggy.com/#ko)
 
 ## `display`  
 - 보여지는 방식  
@@ -110,6 +114,8 @@
   - 부모 요소  
   - `display: flex;` 추가  
   - 속성  
+    - `order` : 순서 바꿀 수 있음  
+    
     - `flex-direction`  
       > container를 기준으로 item 방향 결정  
       > `row`:왼오(기본값)  
@@ -119,7 +125,7 @@
       > [flex-direction]  
     - `flex-wrap`  
       > flex를 벗어났을때 줄 바꾸기  
-      > `wrap`:줄 바꿈, `nowrap`:줄 안바꿈
+      > `wrap`:줄 바꿈, `nowrap`:줄 안바꿈, 'wrap-reverse':거꾸로 줄 바꿈
     - direction, wrap 한꺼번에 표시
        ```python
          flex-flow: row wrap;
@@ -141,6 +147,7 @@
     - `align-content`  
       > ~ 수직으로 여러줄인 item 정렬  
       > `stretch`:(기본값), `flex-start`, `flex-end`, `center`, `space-between`, `space-around`  
+    
     
 #### flex item  
   - 자식 요소  
