@@ -1,0 +1,54 @@
+
+# 실습  
+
+### 기타  
+- `$ python --version` : 파이썬 버전  
+- `$ git --version` : 깃 버전  
+- `$ pwd` : 현재 파일(경로)  
+- `$ ls` : 현재 경로에 있는 파일 리스트  
+- `$ cd ..` : 경로 뒤로 이동
+- `$ python manage.py runserver` → "Ctrl+클릭" 또는 "http://127.0.0.1:8000" 입력 : 로컬 서버 열기 / local에서만 돌아감  
+- `Ctrl + C` : 서버 끄기  
+- `$ deactivate` : 가상환경 끄기  
+- `$ pip install django==버전` : 특정 버전 장고 설치  
+- `$ pip uninstall django` : django 설치 제거  
+
+<br>
+
+- `$ python manage.py makemigrations` : migrations 만들기  
+- `$ python manage.py migrate` : DB migrate 하기  
+- `$ python manage.py createsuperuser` : 관리자(admin) 계정 만들기  
+- `$ python manage.py collectstatic` : static 파일 collecting  
+
+
+### 기본이 bash인 터미널로 열기 (2가지 방법)  
+1. `Ctrl+Shift+P` → `select default shell`입력 → `git bash` 선택  
+2. 작업 폴더내에서 마우스 오른쪽 클릭 → "Git BASH HEAR" 클릭 → `$ code .` → vscode 열림 
+
+
+### 기본 환경 설정 - 가상환경 
+  ```
+1. `$ python -m venv myvenv` : 가상환경 폴더(myvenv) 생성  
+- `$ source myvenv/Scripts/activate` : 가상환경 ON  
+- `$ pip install django`: django설치. Python Install Package  
+- `$ django-admin startproject 프로젝트명` : 프로젝트 폴더 생성. 마지막에 온점(.)을 붙이면 새 폴더 생성X  
+- `$ cd 폴더명` : 경로 이동 / Change Directory  
+```
+- `$ python manage.py startappp 폴더명` : 폴더 내부에(manage.py가 있는 위치) .app폴더 생성  
+- 앱의 존재를 프로젝트에 알림  
+  ```python 
+    apps.py 파일 내의 "폴더명Config" 복사 → setting.py →
+    INSTALLED_APPS = [
+        '앱 명.apps.앱 명Config',                        #'앱 명', 으로 적어도 상관없음
+    ]
+  ```  
+ 
+### 기본 환경 - app 생성  
+ 
+
+- 
+요약
+1. settings.py : project에게 app의 존재 알리기  
+2. templates : views.py에서 처리된 데이터를 받아 사용자에게 화면을 보여줌  
+3. views.py : 데이터를 처리하는 함수 작성  
+4. urls.py : 요청에 맞는 함수를 views.py에서 찾아 요청 전달  
