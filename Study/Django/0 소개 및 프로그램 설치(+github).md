@@ -29,6 +29,12 @@
 - python기반  
 - 웹 어플리케이션 프레임워크    
 - MVT패턴 (티키타카)  
+    - Model Template View  
+    - Model : "data저장 형태 결정" / DB에 저장되는 data / 표 형태 / ORM제공  
+        - ORM : Object-Relational Mapping / SQL언어 없이 DB 쉽게 연결해줌  
+    - Template : "화면 수정" / 사용자가 보는 화면  
+    - View : "data 처리, 가공" / 웹 요청받아 얻은 data를 가공 후, template에 보냄  
+    - URLconf : "가공한 data를 화면으로 보냄" / url설계 / view와 template 이어줌  
 - admin기능 제공  
 - 쉬운 URL파싱 기능  
 
