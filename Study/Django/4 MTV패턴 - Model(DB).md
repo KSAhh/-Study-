@@ -4,9 +4,14 @@
 - 여러개 (O)  
 
 ### 쿼리셋 (queryset)  
-- 전달받은 객체목록  
+- 전달받은 객체목록 / list  
 ### 메소드 (method)  
 - 쿼리셋들을 처리하는 방법  
+- `.all()` : 모든것  
+- `.count()`: data개수  
+- `.first()` : 첫 번째 객체  
+- `.last()` : 마지막 객체  
+
 
 ### migration  
 - makemigrations : 파이썬 코드를 DB가 알아들을수 있게 번역  
@@ -71,6 +76,17 @@
     def home(request):
         blogs = 앱명.objects        # 앱 내의 객체를 blogs에 담음 / blogs는 template에 사용할 이름 
         return render(request, 'home.html', {'blogs': blogs})
+   2. html
+    {{ blogs }}                     # 출력: Blog.Blog.objects
+    {{ blogs.all }}                 # 출력: <QuerySet [<Blog: 타이틀>]>
+    
+    {% for blog in blogs.all %}     # 모든 객체가 담김
+      <div class="container">
+          <h1>{{ blog.title }}</h1>
+          <p>{{ blog.pub_date }}</p>
+          <p>{{ blog.body }}</p>
+      </div>
+    {% endfor %}
 ```  
 > `앱명.objects` : admin의 data  
 > `blogs` : 쿼리셋 (queryset). template에 동일한 이름 사용해야 함  
