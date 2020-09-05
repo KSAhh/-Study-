@@ -35,13 +35,21 @@
 > `title`, `pub_date`, `body` : 모델의 속성  
 > `CharField` : Charictor Field / 짧은 문자열  
 > `TextField` : CharField보다 긴 문자열  
+- 사용자가 적은 title이 뜨길 원하는 경우, app폴더 내 models.py에 추가  
+  ```python
+  class Blog(models.Model):  
+        def __str__(self):
+            return self.title
+  ```
 
 <br>
 
 ### Admin 사용하기  
 ```python
   1. admin 계정 생성  
-    `$ python manage.py createsuperuser` -> ....
-  2. admin에 추가한 modle 알리기  
-    
+    $ python manage.py createsuperuser -> ....
+  2. admin에 추가한 model 알리기  
+  3. 생성한 model을 django에 알리기. app내 admin.py 파일 
+      from .models import 앱이름                                # . : 같은 폴더위치에 있는 models파일 / 앱이름에 해당하는 클래스를 가져오기   
+      admin.site.register(앱이름)                               # admin 사이트에 앱이름에 해당하는 클래스를 등록
 ```
