@@ -3,11 +3,17 @@
 - Django와 별개  
 - 여러개 (O)  
 
+### 쿼리셋 (queryset)  
+- 전달받은 객체목록  
+### 메소드 (method)  
+- 쿼리셋들을 처리하는 방법  
+
 ### migration  
 - makemigrations : 파이썬 코드를 DB가 알아들을수 있게 번역  
 - migrate : DB에 그 내용을 적용하라  
 
-- - -
+- - -  
+
 ##### 기타
 - 프로젝트 폴더 내 settings.py  
 ```python
@@ -52,4 +58,20 @@
   3. 생성한 model을 django에 알리기. app내 admin.py 파일 
       from .models import 앱이름                                # . : 같은 폴더위치에 있는 models파일 / 앱이름에 해당하는 클래스를 가져오기   
       admin.site.register(앱이름)                               # admin 사이트에 앱이름에 해당하는 클래스를 등록
-```
+```  
+
+<br> 
+
+### data 출력  
+- model → view → template  
+```python
+  1. app 내 views.py  
+    from .models import Blog
+    
+    def home(request):
+        blogs = 앱명.objects        # 앱 내의 객체를 blogs에 담음 / blogs는 template에 사용할 이름 
+        return render(request, 'home.html', {'blogs': blogs})
+```  
+> `앱명.objects` : admin의 data  
+> `blogs` : 쿼리셋 (queryset). template에 동일한 이름 사용해야 함  
+> 
