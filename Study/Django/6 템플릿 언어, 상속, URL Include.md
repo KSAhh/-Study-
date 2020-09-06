@@ -21,6 +21,8 @@
   
   
 ## 템플릿 상속 - html  
+- app별로 url관리  
+
 ```python
   1. 프로젝트 폴더 내 templates폴더 생성
   2. templates폴더 내 base.html파일 생성
@@ -42,7 +44,7 @@
       ]
 ```  
 
-## 템플릿 상속 - url  
+## URL Include  
 ```python
   1. 첫번째 app내에 urls.py 파일 생성
   2. 프로젝트폴더 urls.py를 복붙
