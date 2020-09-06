@@ -38,6 +38,19 @@
 - admin기능 제공  
 - 쉬운 URL파싱 기능  
 
+<br>
+
+- Project  
+> settings.py : 전체 프로젝트 관리하는 설정 file  
+> urls.py : 프로젝트의 URL 관리 파일  
+> wsgi.py 또는 asgi.py : 프로젝트를 서비스하기 위한 파일. 배포할 때 사용  
+> \_\_init__.py : 해당 directory가 Python Package의 일부임을 Python에게 알려주는 file  
+- App  
+> views.py : 웹 요청 받음. 받은 데이터를 처리, 가공  
+> models.py : Dagtabase와 관련  
+> admin.py : 관리자 관련  
+> apps.py : Project에게 App의 존재를 알려줄때
+
 ### Python 개념  
 - 처리역할 (!= HTML)  
 - 데이터분석, 머신러닝, 딥러닝에 응용   
