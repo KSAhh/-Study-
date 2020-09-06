@@ -1,9 +1,10 @@
 # Model  
-- DB뒤적뒤적  
+- DB뒤적뒤적 / Data에 접속, 관리하도록 돕는 객체  
 - Django와 별개  
 - 여러개 (O)  
+- Class(붕어빵틀) VS Object(붕어빵)  
 
-### 쿼리셋 (queryset)  
+### 쿼리셋 (ueryset)  
 - 전달받은 객체목록 / list  
 
 ### 메소드 (method)  
@@ -20,10 +21,15 @@
 ### PK  
 - Primary Key  
 - 데이터 구분자 / 모델에서 찍어낸 수많은 객체들을 구분 / 이름표  
+- 관계형 DB  
 
 ### path-converter  
 - 여러 객체 다루는 계층적 url이 필요할 경우 / url계층적 디자인  
 - 형식: `<type:name>`  
+- ex) 페이지 url에 뜸  
+      "www.dreamary.com/profile/1"  
+      "www.dreamary.com/profile/2"  
+      "www.dreamary.com/profile/3"  
 
 ### URL Path  
 - `path('URL', views 내부의 함수, name="url의 이름"),`  
@@ -58,7 +64,7 @@
           title = models.CharField(max_length=200)             # 최대 length가 200인 문자열
           pub_date = models.DateTimeField('date published')    # 날짜와 시간
           body = models.TextField()                            # 긴 문자열
-  2. $ python manage.py makemigrations                         # migration 만듬. DB에게 알림 / "migrations"폴더 생성됨  
+  2. $ python manage.py makemigrations                         # migration 만듬. DB에게 번역 / "migrations"폴더 생성됨  
   3. $ python manage.py migrate                                # 데이터베이스에 적용  
 ```  
 > `title`, `pub_date`, `body` : 모델의 속성  
@@ -114,7 +120,7 @@
 <br>
 
 
-### error 띄우기 - html끼리 연결하면서 data공유하기  
+### error 띄우기 - html끼리 연결하면서 data공유하기, error  
 - 과정  
 1. PK : n번째 블로그 객체 / 게시글 id  
 2. path Converter : 사이트/blog/객체번호(n)  
@@ -147,6 +153,7 @@
          <p>{{ blog.body }}</p>                                                     # blog 이름 동일
          <a href="{% url 'home' %}">돌아가기</a>
 ```  
+> ❗️ (views.py의 pk변수명) == (urls.py의 변수명) 같아야함  
 
 ### 기타  
 
