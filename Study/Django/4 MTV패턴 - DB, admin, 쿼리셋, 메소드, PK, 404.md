@@ -3,6 +3,7 @@
 - Django와 별개  
 - 여러개 (O)  
 - Class(붕어빵틀) VS Object(붕어빵)  
+      - object : 독립적인 data  
 
 ### 쿼리셋 (ueryset)  
 - 전달받은 객체목록 / list  
@@ -16,7 +17,7 @@
 
 ### migration  
 - makemigrations : 파이썬 코드를 DB가 알아들을수 있게 번역  
-- migrate : DB에 그 내용을 적용하라  
+- migrate : DB에 그 내용을 적용. 알려줌  
 
 ### PK  
 - Primary Key  
@@ -65,7 +66,7 @@
           pub_date = models.DateTimeField('date published')    # 날짜와 시간
           body = models.TextField()                            # 긴 문자열
   2. $ python manage.py makemigrations                         # migration 만듬. DB에게 번역 / "migrations"폴더 생성됨  
-  3. $ python manage.py migrate                                # 데이터베이스에 적용  
+  3. $ python manage.py migrate                                # 데이터베이스에 적용 / "db.sqlite3"파일 생성됨  
 ```  
 > `title`, `pub_date`, `body` : 모델의 속성  
 > `CharField` : Charictor Field / 짧은 문자열  
