@@ -34,6 +34,7 @@
       <img src="{% static '이미지이름.jpg' %}">          # 이미지 첨부 / pdf는 `img`가 아닌 `a`
 ```  
 > ⭐️`NameError: name 'os' is not defined` : 오류발생하면 `import os` 적기  
+> ⭐️`'staticfiles' is not a registered tag library` : 오류 발생하면 `{% load static %}`으로 변경  
 
 <br>
 
