@@ -81,6 +81,6 @@
         blog.body = request.GET['body']
         blog.pub_date = timezone.datetime.now()
         blog.save()
-        return redirect('/blog/' + str(blog.id))
+        return redirect('/blog/' + str(blog.id))                        # str: url은 문자형이기 때문에 사용
 ```
 > `request.GET['title']` : new.html 파일에 form태그 안
