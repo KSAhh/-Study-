@@ -47,20 +47,3 @@
 
 <br>
 
-### 템플릿 언어
-- python 사용하고자 할때, 템플릿 언어 이용  
-    - HTML안에 쓰는 Django제공 언어  
-    - `{{}}` : 템플릿 변수. 출력, `{%%}` : 템플릿 태그. 입력  
-        - ex) .html  
-          ```python
-             {% for word, count in dic %}
-             {{word}} : {{count}}
-             <br>
-             {% endfor %}           # 닫는 태그 필요
-         ```  
-    - `{{python_value | filter }}` : 템플릿 필터.
-        - ex) {{value | length}} : value 길이 반환  
-        - ex) {{value | lower }} : value 소문자로 출력  
-
-### 템플릿 상속  
-
