@@ -61,9 +61,10 @@
     $ python manage.py createsuperuser -> ....
   2. admin에 추가한 model 알리기  
   3. 생성한 model을 django에 알리기. app내 admin.py 파일 
-      from .models import 앱이름                                # . : 같은 폴더위치에 있는 models파일 / 앱이름에 해당하는 클래스를 가져오기   
-      admin.site.register(앱이름)                               # admin 사이트에 앱이름에 해당하는 클래스를 등록
+      from .models import 클래스                                # . : 같은 폴더위치에 있는 models파일 / 앱이름에 해당하는 클래스를 가져오기   
+      admin.site.register(클래스)                               # admin 사이트에 앱이름에 해당하는 클래스를 등록
 ```  
+> 클래스 : models.py에 사용한 것  
 
 <br> 
 
