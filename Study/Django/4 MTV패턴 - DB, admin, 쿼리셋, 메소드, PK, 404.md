@@ -88,6 +88,7 @@
     def home(request):
         blogs = 앱명.objects        # 앱 내의 객체를 blogs에 담음 / blogs는 template에 사용할 이름 
         return render(request, 'home.html', {'blogs': blogs})
+   
    2. html
     {{ blogs }}                     # 출력: Blog.Blog.objects
     {{ blogs.all }}                 # 출력: <QuerySet [<Blog: 타이틀>]>
@@ -148,6 +149,7 @@
     class Blog(models.Model):
         def summary(self):              # 자기자신의 객체 중,
             return self.body[:100]      # body를 100자로 제한하여 return
+  
   2. app폴더 내 html
      {% for blog in blogs.all %}
       <div class="container">
