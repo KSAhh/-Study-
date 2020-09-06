@@ -25,8 +25,15 @@
 - 여러 객체 다루는 계층적 url이 필요할 경우 / url계층적 디자인  
 - 형식: `<type:name>`  
 
+### URL Path  
+- `path('URL', views 내부의 함수, name="url의 이름"),`  
+> 'URL' : 페이지 주소 / ex) introduce/,  
+> 함수 : url이 불렸을 때 실행할 함수 / ex) views.home  
+> name : 해당 path를 대표하는 이름 / ex) name = "home"  
+
 \* `render` : 요청이 들어오면 이 html 파일을 보여줘  
 \* `redirect` : 요청을 들어오면 저쪽 url로 보내  
+
 
 - - -  
 
