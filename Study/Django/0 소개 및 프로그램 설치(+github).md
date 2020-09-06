@@ -25,8 +25,7 @@
 - 반복 작업을 줄여주는 역할  
 - 정해진 방식으로 코드 짜도록 강요(X) / 필요할 때 가져다 씀(O)  
 
-### Django  
-- python기반  
+## Django  
 - 웹 어플리케이션 프레임워크    
 - MVT패턴 (티키타카)  
     - Model Template View  
@@ -35,8 +34,10 @@
     - Template : "화면 수정" / 사용자가 보는 화면  
     - View : "data 처리, 가공" / 웹 요청받아 얻은 data를 가공 후, template에 보냄  
     - URLconf : "가공한 data를 화면으로 보냄" / url설계 / view와 template 이어줌  
-- admin기능 제공  
-- 쉬운 URL파싱 기능  
+- 기능
+    - python 기반  
+    - admin기능 제공  
+    - 쉬운 URL파싱 기능  
 
 <br>
 
@@ -51,7 +52,7 @@
 > admin.py : 관리자 관련  
 > apps.py : Project에게 App의 존재를 알려줄때
 
-### Python 개념  
+## Python  
 - 처리역할 (!= HTML)  
 - 데이터분석, 머신러닝, 딥러닝에 응용   
 - list
