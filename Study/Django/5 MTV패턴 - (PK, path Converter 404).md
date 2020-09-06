@@ -12,14 +12,6 @@
 
 # 실습
 
-### html끼리 연결하면서 data 공유하기  
-- 프로젝트 폴더 내 urls.py 
-```python
-    
-```  
-> `'<int:blog_id>` : 각 게시물의 id값이 들어갈 공간 / path-converter  
-  
-  
 ### error 띄우기 - html끼리 연결하면서 data공유하기  
 - 과정  
 1. PK : n번째 블로그 객체 / 게시글 id  
@@ -28,7 +20,7 @@
 ```python
     1. 프로젝트 폴더 내 urls.py
         urlpatterns = [
-            path('blog/<int:blog_id>', Blog.views.detail, name="detail"),
+            path('blog/<int:blog_id>', Blog.views.detail, name="detail"),               # <int:blog_id> : 각 게시물의 id값이 들어갈 공간 / path-converter
         ]
 
     2. app내 views.py
@@ -36,7 +28,7 @@
        from .models import Blog
        def detail(request, blog_id):
            blog_detail = get_object_or_404(Blog, pk=blog_id)                       # get_object_or_404(Class, PK="")
-           return render(request, 'blog/detail.html', {'blog': blog_detail})
+           return render(request, 'detail.html', {'blog': blog_detail})
     3. home.html
         {% for blog in blogs.all %}
         <div class="container">
@@ -46,6 +38,7 @@
         </div>
         {% endfor %}
 ```  
+
   
 - - -  
 
