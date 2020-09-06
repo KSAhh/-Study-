@@ -1,0 +1,14 @@
+### 정적파일 (Static File)  
+- 미리 서버에 저장된 파일  
+- 서버에 저장된 그대로를 서비스해주는 파일  
+- static  
+- 순서
+1. static 폴더 만들기 / App내에 Static폴더 만들기  
+2. 어디에 있고, 어디로 모을지 알려주기 / 프로젝트 폴더 내 setting.py  
+3. static파일 한 곳에 모으기 / `$ python manage.py collectstatic`  
+4. 선언 후 static 파일 사용  
+
+### 동적파일 (Dynamic File)  
+- 서버의 데이터들이 가공된 다음, 서비스되는 파일  
+- 상황에 따라 데이터가 달라짐  
+- media  
