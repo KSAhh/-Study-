@@ -1,3 +1,6 @@
+https://bite-sized-learning.tistory.com/145 아이콘
+https://material.io/resources/icons/?style=baseline 아이콘
+
 ### 이모지
 [Emoji_1](https://steemit.com/steemkr-guide/@snow-airline/steemkr-quick-start-guide)  
 [Emoji_2](https://www.iemoji.com/#?category=symbols&version=36&theme=appl&skintone=default)  
