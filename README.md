@@ -1,10 +1,16 @@
 Repo 전체 **[[요약](https://github.com/KSAhh/-Study-/blob/master/%EA%B8%B0%ED%83%80.md)]**<br/>
+
 Markdown 사용법 **[[요약](https://github.com/KSAhh/-Study-/blob/master/Markdown.md)]**<br/>
+배포 **[[요약](https://github.com/KSAhh/-Study-/blob/master/%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0.md)]**<br/>
+기타 **[[요약]()]**<br/>~~
 
 ~~**[[요약]()]**<br/>~~
 
 
-#### Error [요약](https://github.com/KSAhh/-Study-/blob/master/%E2%9A%A0%EF%B8%8Ferror.md)  
+### Error **[[요약](https://github.com/KSAhh/-Study-/blob/master/%E2%9A%A0%EF%B8%8Ferror.md)]**<br/>  
+
+### HTML & CSS **[[요약](https://github.com/KSAhh/-Study-/tree/master/HTML%20%26%20CSS)]**<br/>
+
 ### Django  
 소개 및 프로그램 설치 **[[요약](https://github.com/KSAhh/-Study-/blob/master/Django/0%20%EC%86%8C%EA%B0%9C%20%EB%B0%8F%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%84%A4%EC%B9%98(%2Bgithub).md)]**<br/>
 기본환경 & 기능 **[[요약](https://github.com/KSAhh/-Study-/blob/master/Django/1%2C2%20%EA%B8%B0%EB%B3%B8%ED%99%98%EA%B2%BD%20%26%20%EA%B8%B0%EB%8A%A5.md)]**<br/>
@@ -13,8 +19,7 @@ MTV패턴 - DB, admin, 쿼리셋, 메소드, PK, 404 **[[요약](https://github.
 정적페이지 - static, media **[[요약](https://github.com/KSAhh/-Study-/blob/master/Django/5%20%EC%A0%95%EC%A0%81%ED%8E%98%EC%9D%B4%EC%A7%80%20-%20static%2C%20media.md)]**<br/>
 템플릿 언어, 상속, URL Include **[[요약](https://github.com/KSAhh/-Study-/blob/master/Django/6%20%ED%85%9C%ED%94%8C%EB%A6%BF%20%EC%96%B8%EC%96%B4%2C%20%EC%83%81%EC%86%8D%2C%20URL%20Include.md)]**<br/>
 
-### Javascript  
-**[[요약](https://github.com/KSAhh/-Study-/edit/master/JS/1.md)]**<br/>
+### Javascript **[[요약](https://github.com/KSAhh/-Study-/edit/master/JS/1.md)]**<br/>
 
 - - -  
 
