@@ -2,7 +2,7 @@ Repo 전체 **[[요약](https://github.com/KSAhh/-Study-/blob/master/%EA%B8%B0%E
 
 Markdown 사용법 **[[요약](https://github.com/KSAhh/-Study-/blob/master/Markdown.md)]**<br/>
 배포 **[[요약](https://github.com/KSAhh/-Study-/blob/master/%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0.md)]**<br/>
-기타 **[[요약]()]**<br/>~~
+기타 **[[요약]()]**<br/>
 
 ~~**[[요약]()]**<br/>~~
 
