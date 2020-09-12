@@ -5,7 +5,9 @@ Markdown 사용법 [요약](https://github.com/KSAhh/-Study-/blob/master/Markdow
 
 
 #### Error [요약](https://github.com/KSAhh/-Study-/blob/master/%E2%9A%A0%EF%B8%8Ferror.md)  
-### Django [요약](https://github.com/KSAhh/-Study-/tree/master/Django)  
+### Django  
+소개 및 프로그램 설치 [[요약](https://github.com/KSAhh/-Study-/blob/master/Django/0%20%EC%86%8C%EA%B0%9C%20%EB%B0%8F%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%84%A4%EC%B9%98(%2Bgithub).md)]
+
 ### Javascript [요약](https://github.com/KSAhh/-Study-/blob/master/JS/1.md)  
 
 - - -  
