@@ -1,18 +1,12 @@
-https://bite-sized-learning.tistory.com/145 아이콘
-https://material.io/resources/icons/?style=baseline 아이콘
+### markdown사용법
+[Manual](https://gist.github.com/ihoneymon/652be052a0727ad59601),  
+[Manual2](https://www.youtube.com/watch?v=MFJIOqxK6k8)  
 
 ### 이모지
 [Emoji_1](https://steemit.com/steemkr-guide/@snow-airline/steemkr-quick-start-guide)  
 [Emoji_2](https://www.iemoji.com/#?category=symbols&version=36&theme=appl&skintone=default)  
 [Emoji_3](https://gist.github.com/rxaviers/7360908)  
 
-### markdown사용법
-[Manual](https://gist.github.com/ihoneymon/652be052a0727ad59601], [https://www.youtube.com/watch?v=MFJIOqxK6k8)  
-
-# Error  
-- 주석 안될때
-```Ctrl + Shift```  
-> 마이크로소프트 입력기로 변환
 
 ### 코드 입력  
 1.
