@@ -43,6 +43,36 @@
          },
       ]
 ```  
+##### 로그인/로그아웃 기능 시 템플릿 상속 `authenticated` 함수 사용할 때  
+```python
+  1. base.html
+  
+    # 로그인 되어있을 때
+    {% if user.is_authenticated %} # 로그인이 되어있는지 (로그인시 authenticated 함수 사용함
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">환영합니다. {{ user.username }} 님!</a> # 템플릿 변수 username 출력
+
+        # 로그아웃 기능
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item"
+                href="javascript:{document.getElementById('logout').submit()}">Logout</a>
+            <form id="logout" method="POST" action="{% url 'logout' %}">  
+                {% csrf_token %} <input type="hidden" />    # 보안
+            </form>
+        </div>
+    </li>
+    
+    # 로그인 안되어있을 때
+    {% else %}    
+    <li class="nav-item">
+        <a class="nav-item nav-link" href="{% url 'signup' %}">Signup</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+    </li>
+
+ ```
 
 ## URL Include  
 ```python
