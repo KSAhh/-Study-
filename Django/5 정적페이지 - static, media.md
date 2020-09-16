@@ -11,6 +11,7 @@
 - media  
 - 서버의 데이터들이 가공된 다음, 서비스되는 파일  
 - 상황에 따라 데이터가 달라짐  
+- 이용자들이 업로드함  
 
 
 - - -  
@@ -32,6 +33,7 @@
   5. html파일
       {% load staticfiles %}                            # 최상단에 작성 / static파일 불러옴
       <img src="{% static '이미지이름.jpg' %}">          # 이미지 첨부 / pdf는 `img`가 아닌 `a`
+                                                        # 또는 '이미지를 넣은 폴더/이미지이름.jpg'
 ```  
 > ⭐️`NameError: name 'os' is not defined` : 오류발생하면 `import os` 적기  
 > ⭐️`'staticfiles' is not a registered tag library` : 오류 발생하면 `{% load static %}`으로 변경  
