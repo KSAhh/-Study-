@@ -61,7 +61,7 @@
 - django 공식 documentation 참고   
 ```python
   1. app폴더 내 models.py
-      class Blog(models.Model):                                # "Class" : 이런 데이터를 처리할 것임을 알림
+      class Blog(models.Model):                                # "Class" : 이런 데이터를 처리할 것임을 알림 / 무조건 대문자로 시작
           title = models.CharField(max_length=200)             # 최대 length가 200인 문자열
           pub_date = models.DateTimeField('date published')    # 날짜와 시간
           body = models.TextField()                            # 긴 문자열
