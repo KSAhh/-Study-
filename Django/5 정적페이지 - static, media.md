@@ -61,13 +61,17 @@
         title = models.CharField(max_length=255)
         image = models.ImageField(upload_to='images/')    # 업로드된 이미지를 images폴더에 넣기
         description = models.CharField(max_length=500)
-
-      def __str__(self):
+                                                          # 변수명 = ...
+                                                          # 또다른 예 // image = models.ImageField(upload_to = 'images/')
+                                                          # 또다른 예 // name = models.CharField(max-length = 50)
+                                                          # 또다른 예 // address = models.CharField(max_length = 255)
+                                                          # 또다른 예 // description = models.TextField()
+      def __str__(self):                                  # title을 받아서 포스트의 제목으로 사용
         return self.title
   
-  4. $ python manage.py makemigrations
+  4. $ python manage.py makemigrations (+앱명)            # DB가 알아듣도록 번역 / 특정앱을 적으면 그 앱만 번역함/
   
-  5. $ python manage.py migrate
+  5. $ python manage.py migrate (+앱명)                   # 번역한 내용을 DB에 적용
   
   6. $ pip install Pillow                                 # 설치 안 된경우
   
