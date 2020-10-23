@@ -100,7 +100,7 @@
     from .models import Blog
     
     def home(request):
-        blogs = .objects        # 앱 내의 객체를 blogs에 담음 / blogs는 template에 사용할 이름 
+        blogs = 클래스.objects        # 앱 내의 객체를 blogs에 담음 / blogs는 template에 사용할 이름 
         return render(request, 'home.html', {'blogs': blogs})
    
    2. html
