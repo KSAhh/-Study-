@@ -18,3 +18,6 @@ IndentationError: unindent does not match any outer indentation level
 migration 초기화  
 - https://velog.io/@kho5420/Django-Django-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98-%EC%B4%88%EA%B8%B0%ED%99%94  
 - https://velog.io/@inyong_pang/Django-Migrate-%EC%B4%88%EA%B8%B0%ED%99%94
+
+뭔지 잘 모르겠을때  
+- 주석 
