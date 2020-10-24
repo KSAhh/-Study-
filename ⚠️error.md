@@ -21,3 +21,6 @@ migration 초기화
 
 뭔지 잘 모르겠을때  
 - 주석 
+
+return database_name == ':memory:' or 'mode=memory' in database_name  
+- setting.py 'NAME': str(BASE_DIR / 'db.sqlite3'),'  
