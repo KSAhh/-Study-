@@ -116,6 +116,14 @@
 8. 다시 commit하기  
 9. $ git remote add origin 깃허브 레포지토리 링크             # github 저장소와 연동  
 10. $ git push -u origin master`                            # master branch에 업로드  
+```  
+```python
+git branch 브랜치 명                   # 새로운 브랜치 생성
+git checkout 브랜치 명                 # 해당 브랜치로 이동
+git push origin 브랜치                 # 원격 저장소의 특정 브랜치에 프로젝트 저장
+git pull origin 브랜치                 # 원격 저장소의 특정 브랜치에서 변경사항 pull 해오기
+git clone http://원격 저장소 주소.git   # 원격 저장소에 있는 파일 전체 복사
+git status                             # git 저장소의 상태를 확인
 ```
 
 ### 함수  
