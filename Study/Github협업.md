@@ -7,6 +7,7 @@
   - 계정 선택  
 3. 초기 프로젝트 push  
 4. 팀원들의 로컬에 프로젝트 pull  
+  - git clone 활용  
 5. 팀원 각자의 브랜치를 생성하여 작업  
 6. 브랜치에 작업 한 내용을 push  
 7. Master와 merge하기 전 pull request  
