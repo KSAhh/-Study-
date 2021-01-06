@@ -118,6 +118,7 @@
 10. $ git push -u origin master`                            # master branch에 업로드  
 ```  
 ```python
+git branch                            # 현재 브랜치 확인
 git branch 브랜치 명                   # 새로운 브랜치 생성
 git checkout 브랜치 명                 # 해당 브랜치로 이동
 git push origin 브랜치                 # 원격 저장소의 특정 브랜치에 프로젝트 저장
