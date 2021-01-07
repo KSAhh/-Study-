@@ -11,7 +11,11 @@
     ```
     "git bash" 검색 → "Git for Windows" 접속 → "Download" 클릭 → Next... → 'Use Visual Studio Code as Git's default editor' 설정 → Next...
     ```  
-    
+4. Postman  
+  - API테스트 도구  
+    ```
+    [사이트 이동](https://www.postman.com/downloads/)  
+    ```   
 - - -  
 
 # FramWork
