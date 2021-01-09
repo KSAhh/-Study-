@@ -37,6 +37,61 @@
     
 - - -  
 
+## JAVA (Java Script Object Notation)  
+- 형식  
+  > Key : Value  
+  > ex) "이름":"홍길동"  
+- 데이터 교환 : JSON형식 多 사용 / 이전에는 XML형식도 사용  
+
+- **JSON**  
+  > 특징 
+    - XML보다 가벼움  
+    - 많은 프로그래밍 언어 지원  
+    - 네트워크상의 전송 : 직렬화 과정 거침(string(문자열)형식으로 보냄) / 수신 : 역직렬화 과정 거침 (object형식으로)  
+  > 형식 예시  
+    - [MDN JSON 문서](https://developer.mozilla.org/ko/docs/learn/javascript/objects/json)  
+    - [같은 페이지의 Superhero data](https://mdn.github.io.learning-area/javascript/oojs/json/superheroes.json.)  
+  > 실습1  
+  ```python
+  Chrome      →     F12     →     Console창      →     "mdn json" 검색     →     "Working with Json" 클릭      →     본문의 [https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json.] 클릭     →     Text 등장     →     Text 복사     →     Console에 "let super_hero" 입력      → Text 붙여넣기 → ★[1]
+  
+  직렬화  
+  "JSON" 입력    →   "JSON.stringify(super_hero);" 입력  →   Console 내부 내용이 string형식으로 출력됨
+
+  역직렬화
+  "JSON.parse(serialized);" 입력
+   ```  
+   > JSONPlaceholder
+   
+      - [사이트](https://jsonplaceholder.typicode.com/)  
+      - Fake online REST API 사이트  
+      - 기능 : REST API 테스트, 프로토타이핑 / 바꾼다고 유지되지 않음. 나중에 원상복구 됨  
+      - 프론트헤드 쪽에서 만들 때 유용  
+      - ★[3] Resources 중 한 가지 클릭하면 틀 확인 가능  
+      - Resources를 이용하려 할 때 locator(url)가 중요  
+   > 실습2  
+   ```python
+   JSONPlaceholder 검색     →    "post/" 클릭     →     url 복사
+
+    <Get>
+    1. Postman 프로그램 실행
+    2. 서버에 요청 보내기위해 "+" 클릭
+    3. Untitled Request 이름의 요청 생성됨
+    4. Get 선택
+    5. url 붙여넣기   
+    6. Send 클릭
+    7. 웹사이트에 나온 내용과 같은 코드가 나옴
+
+  <POST>      # POST에서 사용하지 않는 것을 넣은 경우 에러 발생할 수 있음
+  1. 서버에 요청 보내기위해 "+" 클릭
+  2. Untitled Request 이름의 요청 생성됨
+  3. POST 선택
+  4. url 붙여넣기     # url뒤에 "/(숫자)"를 넣어주면 "ID가 (숫자)인 post"가 출력
+  5. Send 클릭
+  6. id 자동생성됨
+  ```  
+  
+- - -  
 
 ## API (Application Programming Interface)  
 - Application : 서비스, 응용프로그램  
