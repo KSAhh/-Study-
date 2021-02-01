@@ -2,7 +2,7 @@
 
 Markdown 사용법 **[[요약](https://github.com/KSAhh/-Study-/blob/master/%F0%9F%94%97Markdown.md)]**<br/>
 
-기타(icon, 공부사이트 등) **[[요약](https://github.com/KSAhh/-Study-/blob/master/Study/%EA%B8%B0%ED%83%80.md)]**<br/>
+기타(Repository 이름 / icon / 📚공부 사이트 / VSCODE / GIT 등) **[[요약](https://github.com/KSAhh/-Study-/blob/master/Study/%EA%B8%B0%ED%83%80.md)]**<br/>
 
 ### 배포 **[[요약](https://github.com/KSAhh/-Study-/blob/master/Study/%F0%9F%93%92%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0.md)]**<br/>
 ### ⚠️Error **[[요약](https://github.com/KSAhh/-Study-/blob/master/Study/%E2%9A%A0%EF%B8%8Ferror.md)]**<br/>  
