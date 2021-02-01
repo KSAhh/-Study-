@@ -51,6 +51,9 @@
 > wsgi.py 또는 asgi.py : 프로젝트를 서비스하기 위한 파일. 배포할 때 사용  
 > \_\_init__.py : 해당 directory가 Python Package의 일부임을 Python에게 알려주는 file  
 - App  
+> Django프로젝트를 이루는 작은 단위
+
+
 > views.py : 웹 요청 받음. 받은 데이터를 처리, 가공  
 > models.py : Dagtabase와 관련  
 > admin.py : 관리자 관련  
