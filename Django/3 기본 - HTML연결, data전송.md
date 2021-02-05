@@ -1,7 +1,7 @@
 ### html끼리 연결  
 ```python
   1. 프로젝트폴더 내의 urls.py 파일  
-    import 앱명.views
+    import 앱명.views # as사용하면 앱 이름 축약 가능
     urlpattens= [
         path('about/', wordcount.views.about, name='about'),      # about
     ]  
