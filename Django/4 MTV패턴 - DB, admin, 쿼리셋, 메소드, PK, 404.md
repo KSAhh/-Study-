@@ -67,8 +67,10 @@
 ```
 
 <br>
+- - -  
+# 실습  
 
-### 실습 - Model 사용하기  
+### Model 사용하기  
 - django 공식 documentation 참고   
 ```python
   1. app폴더 내 models.py
@@ -109,7 +111,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 
 <br>
 
-### 실습 - Admin 사용하기  
+### Admin 사용하기  
 ```python
   1. admin 계정 생성  
     $ python manage.py createsuperuser -> ....
@@ -122,7 +124,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 
 <br> 
 
-### 실습 - data 출력  
+### Model 내의 data 출력  
 - 순서 : model → view → template  
 ```python
   1. app 내 views.py  
@@ -190,9 +192,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 ```  
 > ❗️ (views.py의 pk변수명) == (urls.py의 변수명) 같아야함  
 
-### 기타  
-
-- data를 html에 연결  
+### data를 html에 연결  
 ```python
   1. app폴더 내 models.py
     class Blog(models.Model):
@@ -207,7 +207,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
       {% endfor %}
 ```  
 
-- Create  
+### Admin에 접속하지 않고 Data 작성 - Create  
 ```python
     app내 view.py
     
