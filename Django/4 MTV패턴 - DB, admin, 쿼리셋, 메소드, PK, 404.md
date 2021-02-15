@@ -281,4 +281,39 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
             update_blog.pub_date = timezone.now()
             update_blog.save()
             return redirect('detail', update_blog.id)
+
+  3. 프로젝트폴더 내 urls.py
+
+      from blog.views import *
+      urlpatterns = [
+            path('edit/<str:id>', edit, name="edit"),
+            path('update/<str:id>', update, name="update"),
+      ]
+
+  4. app내 detail.html
+  
+      <a href="{%url 'edit' blog.id%}">Update</a>
 ```  
+
+- - -  
+
+### Delete - Admin에 접속하지 않고 data 삭제  
+```python
+  1. app내 views.py
+  
+      def delete(request,id):
+            delete_blog = Blog.objects.get(id=id)
+            delete_blog.delete()
+            return redirect('home')
+            
+  2. 프로젝트폴더 내 urls.py
+
+      from blog.views import *
+      urlpatterns = [
+            path('delete/<str:id>',delete,name="delete")
+      ]
+
+  3. app내 detail.html
+  
+      <a href="{%url 'delete' blog.id%}">Delete</a>
+```
