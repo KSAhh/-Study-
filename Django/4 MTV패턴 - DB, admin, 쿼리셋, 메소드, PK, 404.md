@@ -1,3 +1,11 @@
+# CRUD  
+- Create  
+> `new`: 함수 / new.html 보여줌  
+> `create` : 함수 / DB에 저장
+- Read / 읽다  
+- Uadate  
+- Delete  
+
 # Model  
 - DB뒤적뒤적 / Data에 접속, 관리하도록 돕는 객체  
 - Django와 별개  
@@ -45,7 +53,6 @@
 \* `render` : 요청이 들어오면 이 html 파일을 보여줘  
 \* `redirect` : 요청을 들어오면 저쪽 url로 보내  
 
-
 - - -  
 
 ##### 기타설정확인 - 수정X  
@@ -61,7 +68,7 @@
 
 <br>
 
-### Model 사용하기  
+### 실습 - Model 사용하기  
 - django 공식 documentation 참고   
 ```python
   1. app폴더 내 models.py
@@ -102,7 +109,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 
 <br>
 
-### Admin 사용하기  
+### 실습 - Admin 사용하기  
 ```python
   1. admin 계정 생성  
     $ python manage.py createsuperuser -> ....
@@ -115,17 +122,22 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 
 <br> 
 
-### data 출력  
-- model → view → template  
+### 실습 - data 출력  
+- 순서 : model → view → template  
 ```python
   1. app 내 views.py  
     from .models import Blog
     
     def home(request):
-        blogs = 클래스.objects        # 앱 내의 객체를 blogs에 담음 / blogs는 template에 사용할 이름 
+        blogs = 클래스.objects (또는 클래스.objects.all())       # 앱 내의 객체를 blogs에 담음 / blogs는 template에 사용할 이름 
         return render(request, 'home.html', {'blogs': blogs})
+  2. 프로젝트 폴더 내 urls.py
+      from blog.views import *
+      urlpatterns = [
+            path('', home, name="home"),
+      ]
    
-   2. html
+  3. app내 html
     {{ blogs }}                     # 출력: Blog.Blog.objects
     {{ blogs.all }}                 # 출력: <QuerySet [<Blog: 타이틀>]>
     
@@ -195,7 +207,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
       {% endfor %}
 ```  
 
-- 함수  
+- Create  
 ```python
     app내 view.py
     
