@@ -10,7 +10,12 @@ inconsistent use of tabs and spaces in indentation
 IndentationError: unindent does not match any outer indentation level  
 - 원인 : 외부코드를 복사한 경우 많이 나타남. vscode에서 tab을 space-bar를 누른걸로 인식함  
 - 해결 : 들여쓰기를 지웠다가 탭을 해줌  
- 
+
+Permission denied  
+- 원인 : 로컬에 설치된 python version이 여러개 일때
+- 해결 : `Ctrl + Shift + P` → `python: Select Interpreter` → `자신이 쓰는 python버전 선택`   
+        : [사이트](https://gentlesark.tistory.com/32)  
+  
 # vscode  
 - 주석 안될때 / 마이크로소프트 입력기로 변환  
 ```Ctrl + Shift```  
