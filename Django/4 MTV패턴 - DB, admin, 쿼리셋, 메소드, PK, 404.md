@@ -69,6 +69,9 @@
           title = models.CharField(max_length=200)             # 최대 length가 200인 문자열
           pub_date = models.DateTimeField('date published')    # 날짜와 시간
           body = models.TextField()                            # 긴 문자열
+             
+          def __str__(self):                                   # 사용자가 적은 title이 admin에 뜨길 원하는 경우, 추가
+              return self.title
   2. $ python manage.py makemigrations                         # migration 만듬. DB에게 번역 / "migrations"폴더 생성됨  
   3. $ python manage.py migrate                                # 데이터베이스에 적용 / "db.sqlite3"파일 생성됨  
 ```  
@@ -96,12 +99,6 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 >> `unique` : 현재 테이블 내 유일한 값인지  
 >> ...
 
-- 사용자가 적은 title이 뜨길 원하는 경우, app폴더 내 models.py에 추가  
-  ```python
-  class Blog(models.Model):  
-        def __str__(self):
-            return self.title
-  ```
 
 <br>
 
