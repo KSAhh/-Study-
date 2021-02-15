@@ -16,8 +16,12 @@
 - `.last()` : 마지막 객체  
 
 ### migration  
-- makemigrations : 파이썬 코드를 DB가 알아들을수 있게 번역  
-- migrate : DB에 그 내용을 적용. 알려줌  
+- makemigrations  
+> 파이썬 코드를 DB가 알아들을수 있게 번역  
+> 앱 내의 migration 폴더를 만들어 models.py의 변경사항 저장  
+- migrate  
+> DB에 그 내용을 적용. 알려줌  
+> Migration폴더를 실행시켜 DB에 적용  
 
 ### PK  
 - Primary Key  
@@ -34,7 +38,7 @@
 
 ### URL Path  
 - `path('URL', views 내부의 함수, name="url의 이름"),`  
-> 'URL' : 페이지 주소 / ex) introduce/,  
+> 'URL' : 페이지 주소 / 로컬호스트 / ex) introduce/,  
 > 함수 : url이 불렸을 때 실행할 함수 / ex) views.home  
 > name : 해당 path를 대표하는 이름 / ex) name = "home"  
 
@@ -68,9 +72,30 @@
   2. $ python manage.py makemigrations                         # migration 만듬. DB에게 번역 / "migrations"폴더 생성됨  
   3. $ python manage.py migrate                                # 데이터베이스에 적용 / "db.sqlite3"파일 생성됨  
 ```  
-> `title`, `pub_date`, `body` : 모델의 속성  
-> `CharField` : Charictor Field / 짧은 문자열  
-> `TextField` : CharField보다 긴 문자열  
+> `title`, `pub_date`, `body` : 모델의 속성   
+
+필드타입 | HTML위젯 | 필수옵션 | 설명  
+---- | ---- | ---- | ----  
+BooleanField | CheckboxInput | - | True/False값 가지는 필드  
+CharField | TextInput | max_length | 문자열 데이터 저장하는 필드
+|||| 최대 글자수 반드시 지정  
+DateField | TextInput | - | datetime.date 인스턴스인 날짜 데이터 저장 필드
+|||| 달력 위젯과 오늘 날짜 입력 기능을 기본 제공  
+DateTimeField | TextInput | - | date.datetime 인스턴스인 시간 데이터 저장 필드
+|||| 두 개의 TextInput, 달력 위젯, 오늘 날짜 입력 기능 제공  
+FloatField | NumberInput | - | Python의 float과 같은 실수 데이터 저장 필드  
+IntegerField | NumberInput | - | Python의 integer과 같은 정수 데이터 저장 필드
+|||| -2147483648 ~ 2147483647 사이 값 저장 가능
+|||| 글자 수 제한 없는 문자열 데이터 저장 필드  
+TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지만, DB에는 영향 주지 않음  
+> 필드옵션  
+>> `blank` : validation시에 empty 허용여부  
+>> `null` : null값 허용 여부  
+>> `db_index` : 인덱스 필드인지  
+>> `default` : 디폴트 값이나 함수 지정  
+>> `unique` : 현재 테이블 내 유일한 값인지  
+>> ...
+
 - 사용자가 적은 title이 뜨길 원하는 경우, app폴더 내 models.py에 추가  
   ```python
   class Blog(models.Model):  
