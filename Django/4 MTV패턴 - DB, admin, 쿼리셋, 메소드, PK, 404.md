@@ -1,9 +1,12 @@
 # CRUD  
 - Create  
-> `new`: 함수 / new.html 보여줌  
-> `create` : 함수 / DB에 저장
-- Read / 읽다  
+> 2개의 함수 작성
+>> ex) `new`: 함수 / new.html 보여줌  // `create` : 함수 / DB에 저장  
+- Read  
 - Uadate  
+> 2개의 함수 작성  
+> 수정할 데이터의 id값 받아야 함  
+>> ex) `edit`: 함수 / edit.html 보여줌 // `update` : DB에 적용  
 - Delete  
 
 # Model  
@@ -124,7 +127,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 
 <br> 
 
-### Model 내의 data 출력  
+### READ - Model 내의 data 출력  
 - 순서 : model → view → template  
 ```python
   1. app 내 views.py  
@@ -157,7 +160,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 <br>
 
 
-### error 띄우기 - html끼리 연결하면서 data공유하기, error  
+### READ - error 띄우기 / html끼리 연결하면서 data공유하기, error  
 - 과정  
 1. PK : n번째 블로그 객체 / 게시글 id  
 2. path Converter : 사이트/blog/객체번호(n)  
@@ -192,7 +195,7 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
 ```  
 > ❗️ (views.py의 pk변수명) == (urls.py의 변수명) 같아야함  
 
-### data를 html에 연결  
+### READ - data를 html에 연결  
 ```python
   1. app폴더 내 models.py
     class Blog(models.Model):
@@ -206,14 +209,17 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
       </div>
       {% endfor %}
 ```  
+- - -  
 
-### Admin에 접속하지 않고 Data 작성 - Create  
+### CREATE - Admin에 접속하지 않고 Data 작성  
 ```python
-    app내 view.py
+  1. app내 view.py
     
     from django.shortcuts import render, get_object_or_404, redirect    # redirect 추가
     from django.utils import timezone                                   # 라이브러리? 추가
     from .models import Blog                                            # Blog data 불러옴
+    def new(request):
+        return render(request, 'new.html')
     def create(request):                                                # create 함수
         blog = Blog()                                                   # Blog data를 blog에 저장
         blog.title = request.GET['title']                               # submit 버튼으로 들어온 title데이터를 GET 메소드로 blog.title에 저장
@@ -221,5 +227,58 @@ TextField | Textarea | - | max_length값 지정하면 폼에서는 제한되지�
         blog.pub_date = timezone.datetime.now()
         blog.save()
         return redirect('/blog/' + str(blog.id))                        # str: url은 문자형이기 때문에 사용
+        
+  2. new.html
+
+      <h1>Write Your blog</h1>
+      <form action="{%url 'create'%}" method="post">
+            {%csrf_token%}
+            <p>제목 : <input type="text" name="title"></p>
+            <p>작성자 : <input type="text" name="writer"></p>
+            본문 : <textarea name="body" id="" cols="30" rows="10"></textarea>
+            <button type="submit">submit</button>
+      </form>
+      
+  3. 프로젝트폴더 내 url.py
+  
+      from blog.views import *
+      urlpatterns = [
+            path('new/', new, name="new"),
+            path('create/', create, name="create"),
+      ]
+      
 ```
-> `request.GET['title']` : new.html 파일에 form태그 안
+> `request.GET['title']` : new.html 파일에 form태그 요소의 name  
+
+- - -  
+
+### Update - Admin에 접속하지 않고 Data 수정  
+```python
+  1. app내 edit.html
+      
+      <h1>Update Your blog</h1>
+      <form action="{% url 'update' blog.id %}" method="post">
+            {%csrf_token%}
+            <p>제목 : <input type="text" name="title" value ="{{ blog.title}}"></p>
+            <p>작성자 : <input type="text" name="writer" vlaue="{{ blog.writer }}"></p>
+            본문 : <textarea name="body" id="" cols="30" rows="10">{{blog.body}}</textarea>
+            <button type="submit">submit</button>
+      </form>
+
+  2. app내 views.py
+  
+      from django.shortcuts import render, get_object_or_404, redirect
+      from django.utils import timezone
+      from .models import Blog
+      def edit(request, id):
+            edit_blog = Blog.objects.get(id = id)
+            return render(request, 'edit.html', {'blog':edit_blog})
+      def update(request,id):
+            update_blog = Blog.objects.get(id=id)
+            update_blog.title = request.POST['title']
+            update_blog.writer = request.POST['writer']
+            update_blog.body = request.POST['body'] 
+            update_blog.pub_date = timezone.now()
+            update_blog.save()
+            return redirect('detail', update_blog.id)
+```  
