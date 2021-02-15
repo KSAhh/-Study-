@@ -59,41 +59,6 @@
 > admin.py : 관리자 관련  
 > apps.py : Project에게 App의 존재를 알려줄때
 
-## Python  
-- 처리역할 (!= HTML)  
-- 데이터분석, 머신러닝, 딥러닝에 응용   
-- list
-    - 변수들을 묶는 자료형  
-    - ['90','86','98'] 형태
-    -
-      ```python
-        a = ['90','86','98']
-        print(a[0])        → 90
-        print(a[3])        → error
-      ```  
-- dictionary  
-    - 대응 되는 데이터 표현  
-    - key:value
-    - ex) 이름:KSAhh, 나이:OO, 학과:ㅁㅋ  
-- 반복문  
-   ```python
-    for 반복제어변수 in 반복대상 :           ex) for scroe in [96,98,100,87]
-      반복실행 할 내용                            print(score)
-                                              결과: 96 98 100 87
-   ```  
-   ```python
-    for i in range[5];
-      sum += i
-   ```
-   > `range(x,y)` : x이상 y미만의 수 리스트를 반환  
-   > `'range(x)` : 0~x미만의 수 리스트를 반환  
-
-### Git  
-- 작업공간 : 내 컴퓨터, 내 로컬
-- Staging Area : 저장되기 이전에 거쳐가는 장소 / ex) github  
-- Repository : 프로젝트가 저장되기를 원하는 장소  
-- stagin area에 파일들을 저장하고, staging area를 저장하는 방식  
-
 - - -  
 
 # 실습
