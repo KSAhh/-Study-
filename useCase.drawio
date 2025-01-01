@@ -132,174 +132,174 @@
           <mxGeometry x="125" y="-1150" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-68" value="최종 케이스" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="1520" width="693" height="662" as="geometry" />
+          <mxGeometry x="24" y="1520" width="780" height="670" as="geometry" />
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-85" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-68">
-          <mxGeometry y="30" width="693" height="32" as="geometry" />
+          <mxGeometry y="30" width="780" height="32" as="geometry" />
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-86" value="&lt;b&gt;TC&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-85">
-          <mxGeometry width="53" height="32" as="geometry">
-            <mxRectangle width="53" height="32" as="alternateBounds" />
+          <mxGeometry width="50" height="32" as="geometry">
+            <mxRectangle width="50" height="32" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-89" value="전제조건 ( Given)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-85">
-          <mxGeometry x="53" width="160" height="32" as="geometry">
-            <mxRectangle width="160" height="32" as="alternateBounds" />
+          <mxGeometry x="50" width="220" height="32" as="geometry">
+            <mxRectangle width="220" height="32" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-94" value="시나리오 (when)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-85">
-          <mxGeometry x="213" width="160" height="32" as="geometry">
+          <mxGeometry x="270" width="160" height="32" as="geometry">
             <mxRectangle width="160" height="32" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-110" value="예상결과 (Then)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-85">
-          <mxGeometry x="373" width="160" height="32" as="geometry">
-            <mxRectangle width="160" height="32" as="alternateBounds" />
+          <mxGeometry x="430" width="210" height="32" as="geometry">
+            <mxRectangle width="210" height="32" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-116" value="실제 결과" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-85">
-          <mxGeometry x="533" width="160" height="32" as="geometry">
-            <mxRectangle width="160" height="32" as="alternateBounds" />
+          <mxGeometry x="640" width="140" height="32" as="geometry">
+            <mxRectangle width="140" height="32" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-68">
-          <mxGeometry y="62" width="693" height="120" as="geometry" />
+          <mxGeometry y="62" width="780" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-70" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1;fillColor=none;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-69">
-          <mxGeometry width="53" height="120" as="geometry">
-            <mxRectangle width="53" height="120" as="alternateBounds" />
+          <mxGeometry width="50" height="120" as="geometry">
+            <mxRectangle width="50" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-90" value="-" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-69">
-          <mxGeometry x="53" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+          <mxGeometry x="50" width="220" height="120" as="geometry">
+            <mxRectangle width="220" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-95" value="email 형식검사 통과&lt;div&gt;email 중복검사 통과&lt;/div&gt;&lt;div&gt;password 검사 통과&lt;/div&gt;&lt;div&gt;password 확인 통과&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-69">
-          <mxGeometry x="213" width="160" height="120" as="geometry">
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-95" value="email 형식검사 성공&lt;div&gt;email 중복검사&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;성공&lt;/span&gt;&lt;/div&gt;&lt;div&gt;password 검사&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;성공&lt;/span&gt;&lt;/div&gt;&lt;div&gt;password 확인&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;성공&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-69">
+          <mxGeometry x="270" width="160" height="120" as="geometry">
             <mxRectangle width="160" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-111" value="정상적인 회원가입" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-69">
-          <mxGeometry x="373" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+          <mxGeometry x="430" width="210" height="120" as="geometry">
+            <mxRectangle width="210" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-117" value="정상적인 회원가입" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-69">
-          <mxGeometry x="533" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+          <mxGeometry x="640" width="140" height="120" as="geometry">
+            <mxRectangle width="140" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-68">
-          <mxGeometry y="182" width="693" height="120" as="geometry" />
+          <mxGeometry y="182" width="780" height="128" as="geometry" />
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-82" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
-          <mxGeometry width="53" height="120" as="geometry">
-            <mxRectangle width="53" height="120" as="alternateBounds" />
+          <mxGeometry width="50" height="128" as="geometry">
+            <mxRectangle width="50" height="128" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-91" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
-          <mxGeometry x="53" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-91" value="email형식 a@b.c 미준수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
+          <mxGeometry x="50" width="220" height="128" as="geometry">
+            <mxRectangle width="220" height="128" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-96" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
-          <mxGeometry x="213" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-96" value="email 형식검사 실패&lt;div&gt;email 중복검사 성공&lt;/div&gt;&lt;div&gt;password 검사&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;성공&lt;/span&gt;&lt;/div&gt;&lt;div&gt;password 확인 성공&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
+          <mxGeometry x="270" width="160" height="128" as="geometry">
+            <mxRectangle width="160" height="128" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-112" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
-          <mxGeometry x="373" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-112" value="email 재 작성 유도&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;메세지 &amp;amp; 강조&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
+          <mxGeometry x="430" width="210" height="128" as="geometry">
+            <mxRectangle width="210" height="128" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-118" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
-          <mxGeometry x="533" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-118" value="회원가입 실패" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-81">
+          <mxGeometry x="640" width="140" height="128" as="geometry">
+            <mxRectangle width="140" height="128" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-73" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-68">
-          <mxGeometry y="302" width="693" height="120" as="geometry" />
+          <mxGeometry y="310" width="780" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-74" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
-          <mxGeometry width="53" height="120" as="geometry">
-            <mxRectangle width="53" height="120" as="alternateBounds" />
+          <mxGeometry width="50" height="120" as="geometry">
+            <mxRectangle width="50" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-92" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
-          <mxGeometry x="53" width="160" height="120" as="geometry">
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-92" value="-" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
+          <mxGeometry x="50" width="220" height="120" as="geometry">
+            <mxRectangle width="220" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-97" value="email 형식검사 성공&lt;div&gt;email 중복검사 실패&lt;/div&gt;&lt;div&gt;password 검사&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;성공&lt;/span&gt;&lt;/div&gt;&lt;div&gt;password 확인 성공&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
+          <mxGeometry x="270" width="160" height="120" as="geometry">
             <mxRectangle width="160" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-97" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
-          <mxGeometry x="213" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-113" value="email 재 작성 유도&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;메세지 &amp;amp; 강조&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
+          <mxGeometry x="430" width="210" height="120" as="geometry">
+            <mxRectangle width="210" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-113" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
-          <mxGeometry x="373" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-119" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
-          <mxGeometry x="533" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-119" value="회원가입 실패" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-73">
+          <mxGeometry x="640" width="140" height="120" as="geometry">
+            <mxRectangle width="140" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-68">
-          <mxGeometry y="422" width="693" height="120" as="geometry" />
+          <mxGeometry y="430" width="780" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-78" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
-          <mxGeometry width="53" height="120" as="geometry">
-            <mxRectangle width="53" height="120" as="alternateBounds" />
+          <mxGeometry width="50" height="120" as="geometry">
+            <mxRectangle width="50" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-93" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
-          <mxGeometry x="53" width="160" height="120" as="geometry">
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-93" value="password 3자리 이하" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
+          <mxGeometry x="50" width="220" height="120" as="geometry">
+            <mxRectangle width="220" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-98" value="email 형식검사 성공&lt;div&gt;email 중복검사 성공&lt;/div&gt;&lt;div&gt;password 검사 실패&lt;/div&gt;&lt;div&gt;password 확인 성공&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
+          <mxGeometry x="270" width="160" height="120" as="geometry">
             <mxRectangle width="160" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-98" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
-          <mxGeometry x="213" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-114" value="password, password2 재 작성 유도&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;메세지 &amp;amp; 강조&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
+          <mxGeometry x="430" width="210" height="120" as="geometry">
+            <mxRectangle width="210" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-114" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
-          <mxGeometry x="373" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-120" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
-          <mxGeometry x="533" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-120" value="회원가입 실패" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-77">
+          <mxGeometry x="640" width="140" height="120" as="geometry">
+            <mxRectangle width="140" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-183" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-68">
-          <mxGeometry y="542" width="693" height="120" as="geometry" />
+          <mxGeometry y="550" width="780" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-184" value="5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
-          <mxGeometry width="53" height="120" as="geometry">
-            <mxRectangle width="53" height="120" as="alternateBounds" />
+          <mxGeometry width="50" height="120" as="geometry">
+            <mxRectangle width="50" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-185" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
-          <mxGeometry x="53" width="160" height="120" as="geometry">
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-185" value="password와 password2 불일치" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
+          <mxGeometry x="50" width="220" height="120" as="geometry">
+            <mxRectangle width="220" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-186" value="email 형식검사 성공&lt;div&gt;email 중복검사 성공&lt;/div&gt;&lt;div&gt;password 검사 성공&lt;/div&gt;&lt;div&gt;password 확인 실패&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
+          <mxGeometry x="270" width="160" height="120" as="geometry">
             <mxRectangle width="160" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-186" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
-          <mxGeometry x="213" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-187" value="password, pasword2 재 작성 유도&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;메세지 &amp;amp; 강조&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
+          <mxGeometry x="430" width="210" height="120" as="geometry">
+            <mxRectangle width="210" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-187" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
-          <mxGeometry x="373" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sdN0PhSqZLOp96A2A2jz-188" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
-          <mxGeometry x="533" width="160" height="120" as="geometry">
-            <mxRectangle width="160" height="120" as="alternateBounds" />
+        <mxCell id="sdN0PhSqZLOp96A2A2jz-188" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;회원가입 실패&lt;/span&gt;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="sdN0PhSqZLOp96A2A2jz-183">
+          <mxGeometry x="640" width="140" height="120" as="geometry">
+            <mxRectangle width="140" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sdN0PhSqZLOp96A2A2jz-131" value="결정 테이블" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
